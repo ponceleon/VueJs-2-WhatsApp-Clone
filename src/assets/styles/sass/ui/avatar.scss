@@ -1,0 +1,19 @@
+.avatar {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    border-radius: 50%;
+    overflow: hidden;
+    .avatar-image.is-loaded {
+        opacity: 1;
+    }
+    .avatar-image {
+        border-radius: 50%;
+        overflow: hidden;
+        width: 100%;
+        opacity: 0;
+        transition: opacity .18s ease-out;
+        display: block;
+    }
+}

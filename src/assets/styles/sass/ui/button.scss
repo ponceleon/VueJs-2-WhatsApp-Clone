@@ -1,0 +1,26 @@
+button {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    background: none;
+    outline: none;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+.icon,
+.icon-close-panel {
+    color: #777777;
+    width: 24px;
+    height: 24px;
+}
+
+.icon,
+.icon-sm,
+.icon-s,
+.icon-l,
+.icon-xl,
+.icon-alert {
+    display: inline-block;
+    background-repeat: no-repeat;
+}
