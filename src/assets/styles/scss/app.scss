@@ -1,0 +1,27 @@
+// 1. Configuration and helpers
+@import 'helpers/variables';
+@import 'helpers/functions';
+@import 'helpers/mixins';
+@import 'helpers/helpers';
+// 2. Vendors
+@import 'vendor/bootstrap';
+// 3. Base stuff
+@import 'base/typography';
+// 4. Themes
+@import 'themes/normalize';
+@import 'themes/theme';
+// 5. Layout-related sections
+@import 'layout/header';
+@import 'layout/sidebar';
+@import 'layout/container';
+@import 'layout/footer';
+// 6. Components
+@import 'components/avatar';
+@import 'components/button';
+@import 'components/grid-system';
+@import 'components/loader';
+@import 'components/menu';
+@import 'components/modal';
+@import 'components/toast';
+// 7. Page-specific styles
+@import 'pages/home';

@@ -62,5 +62,5 @@
 </script>
 
 <style lang="scss">
-  @import "assets/styles/sass/app"
+  @import "assets/styles/scss/app"
 </style>
